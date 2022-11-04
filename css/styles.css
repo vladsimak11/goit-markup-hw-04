@@ -123,6 +123,7 @@ header {
 .contact-icon {
   fill: currentColor;
   vertical-align: middle;
+  margin-right: 10px;
 }
 
 .contacts {
@@ -305,14 +306,14 @@ header {
 
 .team-wrapper {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .team-social {
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding-bottom: 30px;
+  margin-top: 16px;
 }
 
 .team-social-item {
@@ -353,7 +354,7 @@ header {
   gap: 50px
 }
 
-.clients-list > .item {
+.clients-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -368,8 +369,8 @@ header {
   fill: currentColor;
 }
 
-.clients-list > .item:hover, 
-.clients-list > .item:focus {
+.clients-link:hover, 
+.clients-link:focus {
   color: var(--link-color);
   border-color: var(--link-color);
 }
@@ -501,11 +502,11 @@ header {
   line-height: 1.1;
   font-weight: 700;
   margin-bottom: 20px;
-  padding-top: 12px;
 }
 
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social {
